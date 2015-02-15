@@ -1,6 +1,6 @@
 obj_z1/uip-ds6-nbr.o: ../../core/net/uip-ds6-nbr.c \
  ../../core/./lib/list.h ../../core/./net/rime/rimeaddr.h contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./net/packetbuf.h ../../core/./net/uip-ds6-nbr.h \
  ../../core/./net/uip.h ../../core/./net/uipopt.h \
  ../../core/./net/tcpip.h ../../core/./contiki.h \
@@ -23,7 +23,7 @@ obj_z1/uip-ds6-nbr.o: ../../core/net/uip-ds6-nbr.c \
  ../../core/./net/uip-debug.h
 ../../core/net/uip-ds6-nbr.c :
  ../../core/./lib/list.h ../../core/./net/rime/rimeaddr.h contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./net/packetbuf.h ../../core/./net/uip-ds6-nbr.h :
  ../../core/./net/uip.h ../../core/./net/uipopt.h :
  ../../core/./net/tcpip.h ../../core/./contiki.h :

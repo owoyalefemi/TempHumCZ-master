@@ -43,18 +43,6 @@ include $(CONTIKI)/Makefile.include
 $(CONTIKI)/tools/tunslip6:	$(CONTIKI)/tools/tunslip6.c
 	(cd $(CONTIKI)/tools && $(MAKE) tunslip6)
 
-connect-router_ttyUSB0:	$(CONTIKI)/tools/tunslip6
-	sudo $(CONTIKI)/tools/tunslip6 -L -v2 -s ttyUSB0 $(PREFIX)
-
-connect-router_ttyUSB1:	$(CONTIKI)/tools/tunslip6
-	sudo $(CONTIKI)/tools/tunslip6 -L -v2 -s ttyUSB1 $(PREFIX)
-
-connect-router_ttyUSB2:	$(CONTIKI)/tools/tunslip6
-	sudo $(CONTIKI)/tools/tunslip6 -L -v2 -s ttyUSB2 $(PREFIX)
-
-connect-router_ttyS0:	$(CONTIKI)/tools/tunslip6
-	sudo $(CONTIKI)/tools/tunslip6 -L -v2 -s ttyS0 $(PREFIX)
-
 connect-router:	$(CONTIKI)/tools/tunslip6
 	sudo $(CONTIKI)/tools/tunslip6 $(PREFIX)
 

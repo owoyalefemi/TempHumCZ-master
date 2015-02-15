@@ -1,6 +1,7 @@
-obj_z1/radio-sensor.o: radio-sensor.c ../../core/./lib/sensors.h \
- ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+obj_z1/radio-sensor.o: ../../platform/z1/dev/radio-sensor.c \
+ ../../core/./lib/sensors.h ../../core/./contiki.h \
+ ../../core/./contiki-version.h contiki-conf.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h \
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h \
  ../../core/./sys/cc.h ../../core/./sys/autostart.h \
@@ -14,9 +15,10 @@ obj_z1/radio-sensor.o: radio-sensor.c ../../core/./lib/sensors.h \
  ../../core/./sys/energest.h ../../core/./dev/cc2420.h \
  ../../core/./dev/spi.h ../../core/./dev/radio.h \
  ../../core/./dev/cc2420_const.h ../../core/./dev/radio-sensor.h
-radio-sensor.c ../../core/./lib/sensors.h :
- ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+../../platform/z1/dev/radio-sensor.c :
+ ../../core/./lib/sensors.h ../../core/./contiki.h :
+ ../../core/./contiki-version.h contiki-conf.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h :
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h :
  ../../core/./sys/cc.h ../../core/./sys/autostart.h :

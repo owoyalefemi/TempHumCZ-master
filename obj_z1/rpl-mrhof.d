@@ -1,8 +1,8 @@
 obj_z1/rpl-mrhof.o: ../../core/net/rpl/rpl-mrhof.c \
  ../../core/./net/rpl/rpl-private.h ../../core/./net/rpl/rpl.h \
- ../../core/./net/rpl/rpl-conf.h contiki-conf.h platform-conf.h \
- ../../cpu/msp430/./msp430def.h ../../core/./lib/list.h \
- ../../core/./net/uip.h ../../core/./net/uipopt.h \
+ ../../core/./net/rpl/rpl-conf.h contiki-conf.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../core/./lib/list.h ../../core/./net/uip.h ../../core/./net/uipopt.h \
  ../../core/./net/tcpip.h ../../core/./contiki.h \
  ../../core/./contiki-version.h ../../core/./contiki-default-conf.h \
  ../../core/./sys/process.h ../../core/./sys/pt.h ../../core/./sys/lc.h \
@@ -24,9 +24,9 @@ obj_z1/rpl-mrhof.o: ../../core/net/rpl/rpl-mrhof.c \
  ../../core/./sys/ctimer.h ../../core/./net/uip-debug.h
 ../../core/net/rpl/rpl-mrhof.c :
  ../../core/./net/rpl/rpl-private.h ../../core/./net/rpl/rpl.h :
- ../../core/./net/rpl/rpl-conf.h contiki-conf.h platform-conf.h :
- ../../cpu/msp430/./msp430def.h ../../core/./lib/list.h :
- ../../core/./net/uip.h ../../core/./net/uipopt.h :
+ ../../core/./net/rpl/rpl-conf.h contiki-conf.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../core/./lib/list.h ../../core/./net/uip.h ../../core/./net/uipopt.h :
  ../../core/./net/tcpip.h ../../core/./contiki.h :
  ../../core/./contiki-version.h ../../core/./contiki-default-conf.h :
  ../../core/./sys/process.h ../../core/./sys/pt.h ../../core/./sys/lc.h :

@@ -1,5 +1,5 @@
 obj_z1/rpl-timers.o: ../../core/net/rpl/rpl-timers.c contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./net/rpl/rpl-private.h ../../core/./net/rpl/rpl.h \
  ../../core/./net/rpl/rpl-conf.h ../../core/./lib/list.h \
  ../../core/./net/uip.h ../../core/./net/uipopt.h \
@@ -23,7 +23,7 @@ obj_z1/rpl-timers.o: ../../core/net/rpl/rpl-timers.c contiki-conf.h \
  ../../core/./net/mac/rdc.h ../../core/./net/mac/framer.h \
  ../../core/./sys/ctimer.h ../../core/./lib/random.h
 ../../core/net/rpl/rpl-timers.c contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./net/rpl/rpl-private.h ../../core/./net/rpl/rpl.h :
  ../../core/./net/rpl/rpl-conf.h ../../core/./lib/list.h :
  ../../core/./net/uip.h ../../core/./net/uipopt.h :

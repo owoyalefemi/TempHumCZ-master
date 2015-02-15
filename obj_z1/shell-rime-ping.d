@@ -1,7 +1,7 @@
 obj_z1/shell-rime-ping.o: ../../apps/shell/shell-rime-ping.c \
  ../../apps/shell/shell.h ../../core/./sys/process.h \
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h \
- ../../core/./sys/cc.h contiki-conf.h platform-conf.h \
+ ../../core/./sys/cc.h contiki-conf.h ../../platform/z1/./platform-conf.h \
  ../../cpu/msp430/./msp430def.h ../../apps/shell/shell-base64.h \
  ../../apps/shell/shell-blink.h ../../apps/shell/shell-checkpoint.h \
  ../../apps/shell/shell-collect-view.h ../../apps/shell/shell-coffee.h \
@@ -49,7 +49,7 @@ obj_z1/shell-rime-ping.o: ../../apps/shell/shell-rime-ping.c \
 ../../apps/shell/shell-rime-ping.c :
  ../../apps/shell/shell.h ../../core/./sys/process.h :
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h :
- ../../core/./sys/cc.h contiki-conf.h platform-conf.h :
+ ../../core/./sys/cc.h contiki-conf.h ../../platform/z1/./platform-conf.h :
  ../../cpu/msp430/./msp430def.h ../../apps/shell/shell-base64.h :
  ../../apps/shell/shell-blink.h ../../apps/shell/shell-checkpoint.h :
  ../../apps/shell/shell-collect-view.h ../../apps/shell/shell-coffee.h :

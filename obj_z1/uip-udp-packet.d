@@ -1,5 +1,5 @@
 obj_z1/uip-udp-packet.o: ../../core/net/uip-udp-packet.c contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./net/uip-udp-packet.h ../../core/./net/uip.h \
  ../../core/./net/uipopt.h ../../core/./net/tcpip.h \
  ../../core/./contiki.h ../../core/./contiki-version.h \
@@ -15,7 +15,7 @@ obj_z1/uip-udp-packet.o: ../../core/net/uip-udp-packet.c contiki-conf.h \
  ../../core/./sys/loader.h ../../core/./sys/clock.h \
  ../../core/./sys/energest.h
 ../../core/net/uip-udp-packet.c contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./net/uip-udp-packet.h ../../core/./net/uip.h :
  ../../core/./net/uipopt.h ../../core/./net/tcpip.h :
  ../../core/./contiki.h ../../core/./contiki-version.h :

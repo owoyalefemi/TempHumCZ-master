@@ -1,6 +1,6 @@
 obj_z1/shell-httpd.o: ../../apps/shell/shell-httpd.c \
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h \
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h \
  ../../core/./sys/cc.h ../../core/./sys/autostart.h \
@@ -69,7 +69,7 @@ obj_z1/shell-httpd.o: ../../apps/shell/shell-httpd.c \
  ../../apps/webserver/httpd-fs.h
 ../../apps/shell/shell-httpd.c :
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h :
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h :
  ../../core/./sys/cc.h ../../core/./sys/autostart.h :

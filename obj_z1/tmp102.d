@@ -1,28 +1,30 @@
-obj_z1/tmp102.o: tmp102.c ../../core/./contiki.h \
- ../../core/./contiki-version.h contiki-conf.h platform-conf.h \
- ../../cpu/msp430/./msp430def.h ../../core/./contiki-default-conf.h \
- ../../core/./sys/process.h ../../core/./sys/pt.h ../../core/./sys/lc.h \
- ../../core/./sys/lc-switch.h ../../core/./sys/cc.h \
- ../../core/./sys/autostart.h ../../core/./sys/process.h \
- ../../core/./sys/timer.h ../../core/./sys/clock.h \
- ../../core/./sys/ctimer.h ../../core/./sys/etimer.h \
- ../../core/./sys/timer.h ../../core/./sys/etimer.h \
- ../../core/./sys/rtimer.h ../../cpu/msp430/./rtimer-arch.h \
- ../../core/./sys/rtimer.h ../../core/./sys/pt.h \
- ../../core/./sys/procinit.h ../../core/./sys/loader.h \
- ../../core/./sys/clock.h ../../core/./sys/energest.h i2cmaster.h \
- tmp102.h
-tmp102.c ../../core/./contiki.h :
- ../../core/./contiki-version.h contiki-conf.h platform-conf.h :
- ../../cpu/msp430/./msp430def.h ../../core/./contiki-default-conf.h :
- ../../core/./sys/process.h ../../core/./sys/pt.h ../../core/./sys/lc.h :
- ../../core/./sys/lc-switch.h ../../core/./sys/cc.h :
- ../../core/./sys/autostart.h ../../core/./sys/process.h :
- ../../core/./sys/timer.h ../../core/./sys/clock.h :
- ../../core/./sys/ctimer.h ../../core/./sys/etimer.h :
- ../../core/./sys/timer.h ../../core/./sys/etimer.h :
- ../../core/./sys/rtimer.h ../../cpu/msp430/./rtimer-arch.h :
- ../../core/./sys/rtimer.h ../../core/./sys/pt.h :
- ../../core/./sys/procinit.h ../../core/./sys/loader.h :
- ../../core/./sys/clock.h ../../core/./sys/energest.h i2cmaster.h :
- tmp102.h :
+obj_z1/tmp102.o: ../../platform/z1/dev/tmp102.c ../../core/./contiki.h \
+ ../../core/./contiki-version.h contiki-conf.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../core/./contiki-default-conf.h ../../core/./sys/process.h \
+ ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h \
+ ../../core/./sys/cc.h ../../core/./sys/autostart.h \
+ ../../core/./sys/process.h ../../core/./sys/timer.h \
+ ../../core/./sys/clock.h ../../core/./sys/ctimer.h \
+ ../../core/./sys/etimer.h ../../core/./sys/timer.h \
+ ../../core/./sys/etimer.h ../../core/./sys/rtimer.h \
+ ../../cpu/msp430/./rtimer-arch.h ../../core/./sys/rtimer.h \
+ ../../core/./sys/pt.h ../../core/./sys/procinit.h \
+ ../../core/./sys/loader.h ../../core/./sys/clock.h \
+ ../../core/./sys/energest.h ../../platform/z1/dev/i2cmaster.h \
+ ../../platform/z1/dev/tmp102.h
+../../platform/z1/dev/tmp102.c ../../core/./contiki.h :
+ ../../core/./contiki-version.h contiki-conf.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../core/./contiki-default-conf.h ../../core/./sys/process.h :
+ ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h :
+ ../../core/./sys/cc.h ../../core/./sys/autostart.h :
+ ../../core/./sys/process.h ../../core/./sys/timer.h :
+ ../../core/./sys/clock.h ../../core/./sys/ctimer.h :
+ ../../core/./sys/etimer.h ../../core/./sys/timer.h :
+ ../../core/./sys/etimer.h ../../core/./sys/rtimer.h :
+ ../../cpu/msp430/./rtimer-arch.h ../../core/./sys/rtimer.h :
+ ../../core/./sys/pt.h ../../core/./sys/procinit.h :
+ ../../core/./sys/loader.h ../../core/./sys/clock.h :
+ ../../core/./sys/energest.h ../../platform/z1/dev/i2cmaster.h :
+ ../../platform/z1/dev/tmp102.h :

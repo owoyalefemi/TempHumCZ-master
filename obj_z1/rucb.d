@@ -2,7 +2,7 @@ obj_z1/rucb.o: ../../core/net/rime/rucb.c ../../core/./net/rime/rucb.h \
  ../../core/./net/rime/runicast.h ../../core/./net/rime/stunicast.h \
  ../../core/./sys/ctimer.h ../../core/./sys/etimer.h \
  ../../core/./sys/timer.h ../../core/./sys/clock.h contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./sys/process.h ../../core/./sys/pt.h ../../core/./sys/lc.h \
  ../../core/./sys/lc-switch.h ../../core/./sys/cc.h \
  ../../core/./net/rime/unicast.h ../../core/./net/rime/broadcast.h \
@@ -29,7 +29,7 @@ obj_z1/rucb.o: ../../core/net/rime/rucb.c ../../core/./net/rime/rucb.h \
  ../../core/./net/rime/runicast.h ../../core/./net/rime/stunicast.h :
  ../../core/./sys/ctimer.h ../../core/./sys/etimer.h :
  ../../core/./sys/timer.h ../../core/./sys/clock.h contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./sys/process.h ../../core/./sys/pt.h ../../core/./sys/lc.h :
  ../../core/./sys/lc-switch.h ../../core/./sys/cc.h :
  ../../core/./net/rime/unicast.h ../../core/./net/rime/broadcast.h :

@@ -1,6 +1,6 @@
 obj_z1/shell-udpsend.o: ../../apps/shell/shell-udpsend.c \
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h \
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h \
  ../../core/./sys/cc.h ../../core/./sys/autostart.h \
@@ -67,7 +67,7 @@ obj_z1/shell-udpsend.o: ../../apps/shell/shell-udpsend.c \
  ../../core/./net/mac/rdc.h ../../core/./net/mac/framer.h
 ../../apps/shell/shell-udpsend.c :
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h :
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h :
  ../../core/./sys/cc.h ../../core/./sys/autostart.h :

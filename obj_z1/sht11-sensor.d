@@ -1,6 +1,6 @@
 obj_z1/sht11-sensor.o: ../../core/dev/sht11-sensor.c \
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h \
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h \
  ../../core/./sys/cc.h ../../core/./sys/autostart.h \
@@ -15,7 +15,7 @@ obj_z1/sht11-sensor.o: ../../core/dev/sht11-sensor.c \
  ../../core/./dev/sht11.h ../../core/./dev/sht11-sensor.h
 ../../core/dev/sht11-sensor.c :
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h :
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h :
  ../../core/./sys/cc.h ../../core/./sys/autostart.h :

@@ -1,7 +1,7 @@
-obj_z1/contiki-z1-platform.o: contiki-z1-platform.c \
+obj_z1/contiki-z1-platform.o: ../../platform/z1/./contiki-z1-platform.c \
  ../../core/./dev/button-sensor.h ../../core/./lib/sensors.h \
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h \
- platform-conf.h ../../cpu/msp430/./msp430def.h \
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h \
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h \
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h \
  ../../core/./sys/cc.h ../../core/./sys/autostart.h \
@@ -13,10 +13,10 @@ obj_z1/contiki-z1-platform.o: contiki-z1-platform.c \
  ../../core/./sys/pt.h ../../core/./sys/procinit.h \
  ../../core/./sys/loader.h ../../core/./sys/clock.h \
  ../../core/./sys/energest.h
-contiki-z1-platform.c :
+../../platform/z1/./contiki-z1-platform.c :
  ../../core/./dev/button-sensor.h ../../core/./lib/sensors.h :
  ../../core/./contiki.h ../../core/./contiki-version.h contiki-conf.h :
- platform-conf.h ../../cpu/msp430/./msp430def.h :
+ ../../platform/z1/./platform-conf.h ../../cpu/msp430/./msp430def.h :
  ../../core/./contiki-default-conf.h ../../core/./sys/process.h :
  ../../core/./sys/pt.h ../../core/./sys/lc.h ../../core/./sys/lc-switch.h :
  ../../core/./sys/cc.h ../../core/./sys/autostart.h :
