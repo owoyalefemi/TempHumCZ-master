@@ -3,10 +3,10 @@
  
 #include <stdio.h>
  
-PROCESS(test_sht11_process, "SHT11 test");
-AUTOSTART_PROCESSES(&test_sht11_process);
+PROCESS(humidity_temp_process, "Humidity Temperature Measure");
+AUTOSTART_PROCESSES(&humidity_temp_process);
  
-PROCESS_THREAD(test_sht11_process, ev, data)
+PROCESS_THREAD(humidity_temp_process, ev, data)
 {
   static struct etimer et;
   static unsigned rh;
